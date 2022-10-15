@@ -94,6 +94,11 @@ img {
 .portfolio-list-item {
   width: 370px;
 }
+.portfolio-card {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
 .header-list {
   display: flex;
   align-items: center;
@@ -288,7 +293,7 @@ img {
 }
 .employees-description {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 .team-title {
   font-weight: 500;
@@ -305,15 +310,14 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .social-networks {
   display: flex;
   column-gap: 10px;
   justify-content: center;
 }
-.employees-social-networks {
-  padding-bottom: 30px;
-}
+
 .socail-networkk-links {
   width: 100%;
   height: 100%;
@@ -351,6 +355,7 @@ img {
   padding-bottom: 60px;
 }
 .footer-container {
+  align-items: baseline;
   display: flex;
   column-gap: 70px;
 }
@@ -365,7 +370,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin-top: 12px;
   margin-bottom: 20px;
 }
 .footer-list,
